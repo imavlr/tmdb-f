@@ -1,41 +1,26 @@
-# sv
+# TMDb CC frontend
 
-Everything you need to build a Svelte project, powered by
-[`sv`](https://github.com/sveltejs/cli).
+This was made for a technical test, this is not a real or production ready project.
+Heavy refactoring would be needed before this should be looked at for inspiration.
 
-## Creating a project
+## Getting Started
 
-If you're seeing this, you've probably already done this step. Congrats!
+Follow these steps to get the project up and running on your local machine.
 
-```bash
-# create a new project in the current directory
-npx sv create
+### 1. Install the Dependencies
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or
-`pnpm install` or `yarn`), start a development server:
+First, you need to create your environment file. Copy the `.env.example` file to `.env`:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+deno install
 ```
 
-## Building
+### 2. You Should Now Be Ready to Go
 
-To create a production version of your app:
+Run the application in dev mode with:
 
 ```bash
-npm run build
+deno task dev
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an
-> [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+The web application should now be available on `http://localhost:5173`.
