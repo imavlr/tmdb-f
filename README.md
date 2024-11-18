@@ -11,6 +11,8 @@ Follow these steps to get the project up and running on your local machine.
 
 First, you need to create your environment file. Copy the `.env.example` file to `.env`:
 
+If you do not wish to install deno (deno is a single executable), you can grab a "portable" executable from [the official deno repo](https://github.com/denoland/deno/releases)
+
 ```bash
 deno install
 ```
